@@ -38,15 +38,6 @@ public class PersonajeService implements IPersonajeService {
         return personajeDao.findByWeight(weight);
     }
 
-//    @Override
-//    public Personaje createPersonaje(Personaje personaje) {
-//        Optional<Personaje> personajeOptional = personajeDao.findById(personaje.getId());
-//        if (personajeOptional.isPresent()) {
-//            throw new ResponseStatusException(HttpStatus.BAD_REQUEST);
-//        }
-//        return personajeDao.save(personaje);
-//    }
-
 
     @Override
     public Personaje updatePersonaje(Long id, Personaje personaje) {

@@ -18,9 +18,6 @@ public interface IPersonajeService {
     //GET
     public Optional<Personaje> getPersonajeByWeight(Double weight);
 
-    //POST
-   // public Personaje create(Personaje personaje);
-
     //PUT
     public Personaje updatePersonaje(Long id, Personaje personaje);
 
